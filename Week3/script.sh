@@ -6,5 +6,6 @@
 # Description :	I like # 
 # Options : No options available
 # <-- this is a comment
-
+printf "%s" "Number of cores: " 
 grep processor /proc/cpuinfo | wc -l
+
