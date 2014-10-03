@@ -9,3 +9,6 @@
 printf "%s" "Number of cores: " 
 grep processor /proc/cpuinfo | wc -l
 
+#or create a variable
+cpucnt=$( grep processor /proc/cpuinfo | wc -l )
+printf "%s" "Number of cores: " $cpucnt
