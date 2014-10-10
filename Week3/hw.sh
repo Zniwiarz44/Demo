@@ -1,8 +1,9 @@
 #!/bin/bash
 # Title : cpucount
-# Date : 03/10/14
+# Date : 10/10/14
 # Author : Krystian Horoszkiewicz
 # Version : 1.0
-# Description :	I like # 
+# Description : Lab3 Questions
 # Options : No options available
 # <-- this is a comment
+printf "%s\n""Hello, World!\n\n"
