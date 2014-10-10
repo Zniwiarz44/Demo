@@ -1,0 +1,20 @@
+export GIT_SSL_NO_VERIFY=1
+  408  export http_proxy=http://localhost:3128
+  409  git push -u origin master
+  410  gedit script.sh
+  411  ./script.sh
+  412  ./script.sh
+  413  git commit script.sh
+  414  git push -u origin master
+  415  ./script.sh
+  421  git commit script.sh
+  422  git push -u origin master
+  423  export GIT_SSL_NO_VERIFY=1
+  424  export http_proxy=http://localhost:3128
+  425  cd Demo
+  426  mkdir Week4
+  430  gedit script.sh
+  433  git add -A
+  434  git commit -a
+  435  git push -u origin master
+  436  cd Week4
