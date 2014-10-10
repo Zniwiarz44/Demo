@@ -9,3 +9,5 @@ read str
 s="Some random text + "
 s+=$str
 printf "\n%s""$s""\n"
+NOW=$(date +"%m-%d-%Y")
+printf "\n%s""$NOW""\n"
