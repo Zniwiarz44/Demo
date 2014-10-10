@@ -12,4 +12,7 @@ echo $1
 echo $2
 #Pass in elements to the script
 #cmd: ./hw.sh $1 test $2 test2
+#%s represents the viariable that will be added ad %s position
+#actual variable sits at the end of the statement
+printf "Hello, %s!\n" "$1"
 
