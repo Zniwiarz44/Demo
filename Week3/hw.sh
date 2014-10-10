@@ -7,3 +7,9 @@
 # Options : No options available
 # <-- this is a comment
 printf "%s\n""Hello, World!\n\n"
+$1 $2 $3
+echo $1
+echo $2
+#Pass in elements to the script
+#cmd: ./hw.sh $1 test $2 test2
+
