@@ -6,8 +6,10 @@
 # Description : Lab3 Append string
 printf "\n""Enter string to append?\n"
 read str
-s="Some random text + "
-s+=$str
+#s="Some random text + "
+#s+=$str
 printf "\n%s""$s""\n"
 NOW=$(date +"%m-%d-%Y")
-printf "\n%s""$NOW""\n"
+str+=$NOW
+printf "\n%s""$str""\n"
+$str >> $HOME/diary.txt
